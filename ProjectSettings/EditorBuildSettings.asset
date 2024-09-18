@@ -4,6 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TestTask.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 80cb00854ea92e14abb4b82f62173eb1, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 13ec120527443ad45ac5cad1b8714ebb, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 098358182f6f4794e93da86d29dc721f, type: 2}
