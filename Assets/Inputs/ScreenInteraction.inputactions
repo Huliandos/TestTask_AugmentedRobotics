@@ -1,0 +1,76 @@
+{
+    "name": "ScreenInteraction",
+    "maps": [
+        {
+            "name": "ScreenInteraction",
+            "id": "1a17c4f4-d44d-42a2-83cd-88eeca4a6949",
+            "actions": [
+                {
+                    "name": "ClickPosition",
+                    "type": "Value",
+                    "id": "c6ed81d7-70b3-4c95-ac75-75ad6e60eb57",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ClickDown",
+                    "type": "Button",
+                    "id": "61fb6007-ecb6-4812-9a1d-3ad7551252d6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bff42996-1cdf-4573-aa35-4dfd66078d03",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ClickPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "105a0d7f-afb7-464f-9ce5-56bcd97216e8",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ClickPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "395c2649-b869-4d10-a96f-1367d0eccdfd",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ClickDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "445f1c88-7da2-45d4-b4dc-4af8d5c3263a",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ClickDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

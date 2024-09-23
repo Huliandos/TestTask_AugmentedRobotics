@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 2299430862984373651}
   - component: {fileID: 8168852146506108888}
   - component: {fileID: 8777905253651049606}
-  m_Layer: 0
+  - component: {fileID: 3631855005500356971}
+  m_Layer: 2
   m_Name: ARPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -241,3 +242,18 @@ LineRenderer:
   m_UseWorldSpace: 0
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
+--- !u!114 &3631855005500356971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184762387552505648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74a44f05d01c88e4d9aaa7b175a1f407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hexagonSize: 0.2
+  _hexagonMaterial: {fileID: 2100000, guid: f0b041b012d36d249b1c4351d81546e1, type: 2}
+  _hexagonCanvas: {fileID: 5531444328942039997, guid: b4db18a2617ae6f42986147ea8600bf2, type: 3}
